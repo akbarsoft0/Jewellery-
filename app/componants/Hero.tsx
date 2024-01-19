@@ -9,18 +9,18 @@ function Hero() {
   return (
     <section className="reative">
       <div className="grid md:grid-cols-2 items-center">
-        <article className="">
+        <article className="grid gap-8">
           <h4 className="flex h-14 justify-center rounded-lg text-semibold uppercase items-center sm:w-[400px] bg-gradient-to-t from-slate-400 to-gray-800  text-white p-2">
             <span className="w-6 h-6 rounded-full bg-main flex items-center justify-center me-2 lowercase font-bold">
               i
             </span>
             20% DISCOUNT FOR 1 MONTH ACCOUNT
           </h4>
-          <h2 className="text-6xl font-bold py-8">
+          <h2 className="text-6xl">
             Next generation <br />
             <span className="text-main">Payment</span> Ways.
           </h2>
-          <p className="font-bodyFont text-slate-300">
+          <p>
             Our team of experts uses a methodology to identify the credit cards
             most likely to fit your needs. We examine annual percentage rates,
             annual fees.

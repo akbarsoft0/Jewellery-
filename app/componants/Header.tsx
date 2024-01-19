@@ -18,12 +18,12 @@ const Header = () => {
         </Link>
         <Link
           href="/pages"
-          className="font-semibold capitalize hover:text-main border-b-2 border-b-transparent  hover:border-main duration-300"
+          className=""
         >
-          pages
+          products
         </Link>
         <Link
-          href="/featires"
+          href="/products"
           className="font-semibold capitalize hover:text-main border-b-2 border-b-transparent  hover:border-main duration-300"
         >
           featurse

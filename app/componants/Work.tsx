@@ -4,11 +4,9 @@ import { FaStar } from "react-icons/fa6";
 export default function Work() {
   return (
     <section className="grid md:grid-cols-2 gap-8">
-      <article className="">
-        <h2 className="text-4xl font-bold">
-          You do the business, we’ll handle the money.
-        </h2>
-        <p className="text-slate-400 my-8">
+      <article className="grid gap-8">
+        <h2>You do the business, we’ll handle the money.</h2>
+        <p>
           With the right credit card, you can improve your financial life by
           building credit, earning rewards and saving money. But with hundreds
           of credit cards on the market.

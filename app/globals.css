@@ -31,3 +31,15 @@ section {
     display: grid;
     place-items: center;
 }
+
+h2 {
+    @apply text-5xl font-bold mb-2
+}
+
+p {
+    @apply text-gray-300 font-semibold my-4
+}
+
+a {
+    @apply font-semibold capitalize hover:text-main border-b-2 border-b-transparent hover:border-main duration-300;
+}
