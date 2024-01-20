@@ -9,14 +9,14 @@ function Hero() {
   return (
     <section className="reative">
       <div className="grid md:grid-cols-2 items-center">
-        <article className="grid gap-8">
-          <h4 className="flex h-14 justify-center rounded-lg text-semibold uppercase items-center sm:w-[400px] bg-gradient-to-t from-slate-400 to-gray-800  text-white p-2">
+        <article className="grid">
+          <div className="flex h-20 font-semibold text-md justify-center rounded-lg text-semibold uppercase items-center sm:w-[400px] bg-gradient-to-t to-black  text-white p-2">
             <span className="w-6 h-6 rounded-full bg-main flex items-center justify-center me-2 lowercase font-bold">
               i
             </span>
             20% DISCOUNT FOR 1 MONTH ACCOUNT
-          </h4>
-          <h2 className="text-6xl">
+          </div>
+          <h2 className="text-2xl md:text-6xl py-4">
             Next generation <br />
             <span className="text-main">Payment</span> Ways.
           </h2>

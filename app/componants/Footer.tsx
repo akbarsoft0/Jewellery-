@@ -3,21 +3,20 @@ import ScoialIcons from "./ScoialIcons";
 
 const Footer = () => {
   return (
-    <footer className="">
-      <div className="grid md:grid-cols-4 gap-4 py-8">
-        <div className="pb-4">
+    <footer className="p-4 pb-0">
+      <div className="grid md:grid-cols-4 gap-4">
+        <div className="">
           <h2>
-            <Link
-              href="/"
-              className="text-2xl font-bold uppercase hover:text-main"
-            >
+            <Link href="/" className="">
               logo
             </Link>
           </h2>
           <h6 className="py-4 font-semibold text-slate-300">
             A new way to make the payments easy, reliable and 100% secure.
           </h6>
-          <ScoialIcons />
+          <div>
+            <ScoialIcons />
+          </div>
         </div>
         <ul className="grid gap-4 text-slate-400 font-semibold pb-4">
           <li>

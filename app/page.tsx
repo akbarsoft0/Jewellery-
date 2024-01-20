@@ -4,6 +4,8 @@ import hand from "@/public/images/hand.png";
 import Counters from "./componants/Counters";
 import Work from "./componants/Work";
 import Payment from "./componants/Payment";
+import Contacts from "./componants/Contacts";
+import Reviews from "./componants/Reviews";
 function Home() {
   return (
     <div className="relative">
@@ -11,6 +13,8 @@ function Home() {
       {/* <Counters /> */}
       <Work />
       <Payment />
+      <Reviews />
+      <Contacts />
     </div>
   );
 }

@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 ::-webkit-scrollbar {
     width: 5px;
     background-color: #134E5E;
@@ -18,28 +20,40 @@
     color: white;
 }
 
-.center {
-    @apply flex justify-center items-center
+
+#mob-icons a{
+    @apply rotate-90
 }
 
-section, header, footer {
+.center {
+    @apply flex justify-center items-center;
+}
+
+section,
+header {
     padding: 4rem 1rem;
 }
 
 section {
-    min-height: 80vh;
-    display: grid;
-    place-items: center;
+    @apply grid items-center min-h-[80vh];
+}
+
+article {
+    @apply p-2
 }
 
 h2 {
-    @apply text-5xl font-bold mb-2
+    @apply text-3xl md:text-5xl font-bold;
 }
 
 p {
-    @apply text-gray-300 font-semibold my-4
+    @apply text-gray-300 font-semibold py-4;
 }
 
 a {
     @apply font-semibold capitalize hover:text-main border-b-2 border-b-transparent hover:border-main duration-300;
+}
+
+.box {
+    @apply bg-gradient-to-br from-gray-700 rounded-2xl hover:bg-slate-800 duration-300;
 }

@@ -9,7 +9,7 @@ import {
 
 function ScoialIcons() {
   return (
-    <div className="flex gap-2">
+    <div className="flex gap-2 py-2">
       <Link
         href="/"
         className="flex items-center justify-center text-slate-600 text-xl bg-gray-300 w-10 h-10 rounded-full"
