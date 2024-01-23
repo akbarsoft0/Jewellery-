@@ -17,7 +17,7 @@ const Header = () => {
         <Link href="/products">featurse</Link>
         <Link href="/blog">blog</Link>
         <Link href="/portfolio">portfoilo</Link>
-        <Link href="/contact">contact us</Link>
+        <Link href="/contacts">contact us</Link>
       </nav>
       <div className="hidden md:flex">
         <Button />

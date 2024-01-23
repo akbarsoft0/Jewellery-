@@ -4,7 +4,7 @@ import Button from "./Button";
 function Contacts() {
   return (
     <section className="">
-      <div className="md:flex items-center box p-4">
+      <div className="box p-8">
         <article className="">
           <h2>You do the business, we’ll handle the money.</h2>
           <p className="py-4 md:py-8">

@@ -2,58 +2,65 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 ::-webkit-scrollbar {
-    width: 5px;
-    background-color: #134E5E;
+  width: 5px;
+  background-color: #134e5e;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-clip: content-box;
-    background-color: #10d3cc;
-    border-radius: 6px;
+  background-clip: content-box;
+  background-color: #10d3cc;
+  border-radius: 6px;
+}
+
+/* .hero{
+    background: url();
+} */
+
+/* label, */
+input,
+textarea {
+  @apply flex p-4 capitalize rounded-lg w-full text-black;
 }
 
 :root {
-    overflow-x: hidden;
-    color: white;
+  overflow-x: hidden;
+  color: white;
 }
 
-
-#mob-icons a{
-    @apply rotate-90
+#mob-icons a {
+  @apply rotate-90;
 }
 
 .center {
-    @apply flex justify-center items-center;
+  @apply flex justify-center items-center;
 }
 
 section,
 header {
-    padding: 4rem 1rem;
+  padding: 4rem 1rem;
 }
 
 section {
-    @apply grid items-center min-h-[80vh];
+  @apply grid items-center min-h-[80vh];
 }
 
 article {
-    @apply p-2
+  @apply p-2;
 }
 
 h2 {
-    @apply text-3xl md:text-5xl font-bold;
+  @apply text-3xl md:text-5xl font-bold;
 }
 
 p {
-    @apply text-gray-300 font-semibold py-4;
+  @apply text-gray-300 font-semibold py-4;
 }
 
 a {
-    @apply font-semibold capitalize hover:text-main border-b-2 border-b-transparent hover:border-main duration-300;
+  @apply font-semibold capitalize hover:text-main border-b-2 border-b-transparent hover:border-main duration-300;
 }
 
 .box {
-    @apply bg-gradient-to-br from-gray-700 rounded-2xl hover:bg-slate-800 duration-300;
+  @apply bg-gradient-to-br from-gray-700 rounded-2xl hover:bg-slate-800 duration-300;
 }

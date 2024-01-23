@@ -27,7 +27,7 @@ function NavButton() {
                             <Link href="/products">featurse</Link>
                             <Link href="/blog">blog</Link>
                             <Link href="/portfolio">portfoilo</Link>
-                            <Link href="/contact">contact us</Link>
+                            <Link href="/contacts">contact us</Link>
                         </nav>
                         <div id="mob-icons" className="-rotate-90">
                             <ScoialIcons />
