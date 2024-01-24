@@ -8,8 +8,6 @@ import ScoialIcons from "./ScoialIcons";
 function NavButton() {
     const [open, setOpen] = useState(false)
 
-    open ? console.log("open") : console.log('close')
-
     return (
         <div className="md:hidden text-2xl">
             <button onClick={() => setOpen(!open)}>
@@ -23,9 +21,9 @@ function NavButton() {
                         </button>
                         <nav className="flex flex-col justify-center text-md">
                             <Link href="/">home</Link>
-                            <Link href="/pages">products</Link>
+                            <Link href="/products">products</Link>
                             <Link href="/products">featurse</Link>
-                            <Link href="/blog">blog</Link>
+                            <Link href="/blogs">blogs</Link>
                             <Link href="/portfolio">portfoilo</Link>
                             <Link href="/contacts">contact us</Link>
                         </nav>

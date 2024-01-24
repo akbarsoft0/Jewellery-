@@ -18,7 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="max-w-screen-xl m-auto bg-gradient-to-r from-slate-800 to-black text-white">
+      <body className="max-w-screen-xl m-auto bg-gradient-to-r from-slate-800 to-black text-white relative">
         <Header />
         {children}
         <Footer />
